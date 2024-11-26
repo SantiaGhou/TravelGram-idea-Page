@@ -20,6 +20,22 @@
 --text-sm:12px/170% var(--font-family);
 }
 body{
+    font: var(--text);
     background-color: var(--background-color);
     color: var(--text-color-secondary);
+}
+nav a {
+    text-decoration: none;
+    color: var(--text-color-primary);
+}
+
+a:hover{
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+.container{
+padding-inline: 32px;
+max-width: 1280px;
+margin-inline:auto;
 }
