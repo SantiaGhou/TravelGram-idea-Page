@@ -22,6 +22,12 @@ margin-bottom: 8px;
 #Profile p{
 font:var(--text-md);
 }
+#Profile img{
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 #info{
     display: flex;
     gap: 16px;
